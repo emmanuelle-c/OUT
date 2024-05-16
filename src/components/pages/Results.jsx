@@ -1,9 +1,13 @@
 import Modal from "../Modal";
+import { useState } from "react";
 
 function Results() {
+    const [isOpen, setIsOpen] = useState(true);
   return (
   <>
-  < Modal />
+  {isOpen &&
+  < Modal setIsOpen={setIsOpen} />
+  }
   <p>Results</p>
   </>);
 }
