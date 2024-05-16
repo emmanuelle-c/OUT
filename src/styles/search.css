@@ -1,0 +1,14 @@
+.main-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.off-screen-carrousel {
+    width: 60vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
