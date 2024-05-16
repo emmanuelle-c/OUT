@@ -7,11 +7,10 @@
     --background-color: #f3fbf0;
     --accent: #ffd400;
     background-color: #f3fbf0;
-    background-image: radial-gradient(#b9abc6 0.45px, transparent 0.45px),
-        radial-gradient(#b9abc6 0.45px, #f3fbf0 0.45px);
-    background-size: 18px 18px;
-    background-position: 0 0, 9px 9px;
-    opacity: 1;
+    background-image: radial-gradient(#b9abc6 1.1px, transparent 1.1px),
+        radial-gradient(#b9abc6 1.1px, #f3fbf0 1.1px);
+    background-size: 44px 44px;
+    background-position: 0 0, 22px 22px;
 }
 
 body {

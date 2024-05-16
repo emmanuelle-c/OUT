@@ -1,12 +1,15 @@
 import SearchBar from "../SearchBar";
 import { useState } from "react";
 import "../../styles/search.css";
+import { Link } from "react-router-dom";
 
 function Search() {
     const [searchInput, setSearchInput] = useState("");
     return (
         <div className="search">
-            <img className="logo" src="./src/assets/images/outlogo.svg " />
+            <Link to="/">
+                <img className="logo" src="./src/assets/images/outlogo.svg " />
+            </Link>
             <div className="searchdiv">
                 <SearchBar
                     searchInput={searchInput}

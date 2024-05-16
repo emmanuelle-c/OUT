@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100vh;
 }
-.search > .logo {
+.search > a > .logo {
     width: 150px;
     margin-top: 20px;
 }
@@ -51,8 +51,8 @@
     color: var(--text);
 }
 
-@media only screen and (max-width: 900px) {
-    #home > .logo {
+/* @media only screen and (max-width: 900px) { */
+/* .search > .logo {
         width: 10%;
-    }
-}
+    } */
+/* } */
