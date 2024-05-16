@@ -2,12 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import App from "./App.jsx";
-import Home from "./components/pages/Home.jsx";
-import Timer from "./components/pages/Timer.jsx";
-import Search from "./components/pages/Search.jsx";
-import Results from "./components/pages/Results.jsx";
-import GetOut from "./components/pages/GetOut.jsx";
+import './styles/global.css'
+
+
+import App from './App.jsx'
+import Home from './components/pages/Home.jsx';
+import Timer from './components/pages/Timer.jsx';
+import Search from './components/pages/Search.jsx';
+import Results from './components/pages/Results.jsx';
+import GetOut from './components/pages/GetOut.jsx';
 
 const router = createBrowserRouter([
   {

@@ -12,7 +12,10 @@ body {
   font-family: "Roboto";
   font-weight: 400;
   background-color: var(--background-color);
+  color: var(--text);
 }
+
+
 
 h1,
 h2,
@@ -21,11 +24,8 @@ h4,
 h5 {
   font-family: "Poppins";
   font-weight: 700;
+  color: var(--text);
 }
-
-html {
-  font-size: 100%;
-} 
 
 h1 {
   font-size: 2em;
@@ -36,5 +36,5 @@ h2 {
 }
 
 small {
-  font-size: 0.75rem; /* 12px */
+  font-size: 0.75em;
 }
