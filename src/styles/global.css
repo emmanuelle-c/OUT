@@ -14,18 +14,23 @@
 }
 
 body {
-    /* background-color: var(--background-color); */
-    box-sizing: border-box;
-    margin: 0;
-    font-family: "Roboto";
-    font-weight: 400;
+  background-color: var(--background-color);
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  background-color: var(--background-color);
+  color: var(--text);
 }
+
+
 
 h1,
 h2,
 h3,
 h4,
 h5 {
+
     font-family: "Poppins";
     font-weight: 700;
 }
@@ -34,8 +39,15 @@ html {
   font-size: 100%;
  }/* 16px */
 
+  font-family: "Poppins";
+  font-weight: 700;
+  color: var(--text);
+}
+
+
 h1 {
-    font-size: 2em;
+  font-size: 2em;
+  text-align: center;
 }
 
 h2 {
@@ -43,5 +55,5 @@ h2 {
 }
 
 small {
-    font-size: 0.75rem; /* 12px */
+  font-size: 0.75em;
 }
