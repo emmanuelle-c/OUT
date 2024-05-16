@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");
 
 body {
+  background-color: var(--background-color);
   font-family: "Roboto";
   font-weight: 400;
 }

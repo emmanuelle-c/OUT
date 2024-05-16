@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState, useEffect } from "react";
-import "./Timer.css";
+import "../../styles/Timer.css";
 
 const Timer = () => {
   const initialMinutes = 5;
@@ -26,18 +26,23 @@ const Timer = () => {
   };
 
   return (
-    <div>
-      <h1>{formatTime(seconds)}</h1>
-      <p>
-        Pour utiliser Out c'est simple tape le temp où tu souhaite rester
-        concentré et lance le timer
-      </p>
-      <button
-        onClick={() => setIsActive(true)}
-        disabled={isActive || seconds === 0}
-      >
-        Lancer le timer
-      </button>
+    <div className="timer">
+      <h1 className="time">{formatTime(seconds)}</h1>
+      <div className="timertext">
+        <p className="textetimer">
+          <b>Pour utiliser Out, c'est simple</b> tape le temp où tu souhaite
+          rester concentré et lance le timer
+        </p>
+      </div>
+      <div className="timeflex">
+        <button
+          onClick={() => setIsActive(true)}
+          disabled={isActive || seconds === 0}
+          className="timerbutton"
+        >
+          Lancer le timer
+        </button>
+      </div>
     </div>
   );
 };
