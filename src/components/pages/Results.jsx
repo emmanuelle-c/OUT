@@ -9,36 +9,29 @@ function Results() {
   const natureArray = activities.filter(
     (activity) => activity.category === "nature"
   );
-  const randomActivity = natureArray[Math.floor(Math.random() * natureArray.length)];
+  const randomNatureActivity = natureArray[Math.floor(Math.random() * natureArray.length)];
   const sportArray = activities.filter(
     (activity) => activity.category === "sport"
   );
+  const randomSportActivity = sportArray[Math.floor(Math.random() * sportArray.length)];
   const cultureArray = activities.filter(
     (activity) => activity.category === "culture"
   );
+  const randomCultureActivity = cultureArray[Math.floor(Math.random() * cultureArray.length)];
   return (
     <>
       {isOpen && <Modal setIsOpen={setIsOpen} />}
       <h2 className="results-header">Out te propose 3 activités</h2>
       <div>
-        {natureArray.map((activity) => (
           <Card
-            key={activity.description}
-            activity={activity}
+            activity={randomNatureActivity}
           />
-        ))}
-        {sportArray.map((activity) => (
           <Card
-            key={activity.description}
-            activity={activity}
+            activity={randomSportActivity}
           />
-        ))}
-        {cultureArray.map((activity) => (
           <Card
-            key={activity.description}
-            activity={activity}
+            activity={randomCultureActivity}
           />
-        ))}
       </div>
       <button>Voir plus</button>
     </>
