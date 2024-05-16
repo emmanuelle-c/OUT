@@ -36,6 +36,10 @@
     max-width: 20%;
     padding: 1% 10%;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 27%;
   }
   .activity-address {
     font-style: italic;
