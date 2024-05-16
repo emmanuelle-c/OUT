@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import './styles/global.css'
@@ -12,38 +12,36 @@ import Search from './components/pages/Search.jsx';
 import Results from './components/pages/Results.jsx';
 import GetOut from './components/pages/GetOut.jsx';
 
-
 const router = createBrowserRouter([
   {
     element: <App />,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home />,
       },
       {
-        path: '/timer',
+        path: "/timer",
         element: <Timer />,
       },
       {
-        path: '/search',
+        path: "/search",
         element: <Search />,
       },
       {
-        path: '/results',
+        path: "/results",
         element: <Results />,
       },
       {
-        path: '/get-out',
+        path: "/get-out",
         element: <GetOut />,
       },
-    ]
-  }]
+    ],
+  },
+]);
 
-)
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

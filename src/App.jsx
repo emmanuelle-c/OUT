@@ -1,14 +1,14 @@
-import {Outlet} from 'react-router-dom'
-
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
+import "./styles/global.css"
 
 function App() {
-  
-
   return (
     <>
-     <Outlet />
+      <Outlet />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
