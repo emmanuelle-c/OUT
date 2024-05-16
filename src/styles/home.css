@@ -43,9 +43,16 @@
   font-size: 20px;
   font-weight: 700;
   box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.go-out:hover {
+  transform: scale(1.05);
 }
 
 .find-activity {
+  cursor: pointer;
   background-color: var(--background-color);
   color: var(--secondary-color);
   border: none;
@@ -54,6 +61,11 @@
   height: 55px;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.find-activity:hover {
+  transform: scale(1.05);
 }
 
 @media (min-width: 1024px) {
