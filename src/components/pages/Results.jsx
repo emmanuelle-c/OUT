@@ -46,7 +46,7 @@ function Results() {
           <Card activity={natureArray[1]} />
           <Card activity={sportArray[1]} />
           <Card activity={cultureArray[1]} />
-          <Link to="/search">Faire ma propre recherche d'activités</Link>
+          <Link to="/search">{"Faire ma propre recherche d'activités"}</Link>
         </div>
       )}
     </main>
