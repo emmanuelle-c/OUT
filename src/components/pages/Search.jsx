@@ -5,10 +5,8 @@ import "../../styles/search.css";
 function Search() {
     const [searchInput, setSearchInput] = useState("");
     return (
-        <div>
-            <div></div>
-            <div></div>
-            <div>
+        <div className="search">
+            <div className="searchdiv">
                 <SearchBar
                     searchInput={searchInput}
                     setSearchInput={setSearchInput}

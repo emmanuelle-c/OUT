@@ -1,8 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+.searchdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 .tags {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 10px;
+    padding-inline-start: 0px;
+    list-style: none;
 }
 
 .tag {
@@ -10,13 +28,21 @@
     padding: 10px 15px;
     border-radius: 50px;
     font-family: var(--title-font);
-    background-color: var(--accent);
+    background-color: var(--background-color);
     color: var(--main-text);
     list-style: none;
     max-width: 100px;
     font-size: 0.8em;
     text-align: center;
-    font-weight: bold;
     display: flex;
     gap: 5px;
+    font-family: "Poppins";
+    align-items: center;
+
+    border: #b9abc6 solid 3px;
+}
+
+.tag:hover {
+    background-color: var(--accent);
+    color: var(--text);
 }
