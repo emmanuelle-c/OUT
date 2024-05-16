@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
-import "./components/styles/Globalcss.css";
-
+import "./styles/global.css";
 function App() {
     return (
         <>

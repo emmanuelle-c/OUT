@@ -5,6 +5,8 @@
     max-width: 500px;
     border-radius: 50px;
     border: #b9abc6 solid 1px;
+    position: absolute;
+    bottom: 0;
 }
 
 .main-search {

@@ -1,6 +1,5 @@
-import "./styles/SearchBar.css";
 import PropTypes from "prop-types";
-
+import "../styles/SearchBar.css";
 function SearchBar({ searchInput, setSearchInput }) {
     return (
         <form className="main-search-container">

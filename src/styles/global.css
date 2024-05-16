@@ -4,6 +4,12 @@
     --secondary-color: #b9abc6;
     --background-color: #f3fbf0;
     --accent: #ffd400;
+    background-color: #f3fbf0;
+    opacity: 0.8;
+    background-image: radial-gradient(#b9abc6 0.45px, transparent 0.45px),
+        radial-gradient(#b9abc6 0.45px, #f3fbf0 0.45px);
+    background-size: 18px 18px;
+    background-position: 0 0, 9px 9px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");

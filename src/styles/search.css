@@ -1,0 +1,22 @@
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.tag {
+    margin: 2px 5px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-family: var(--title-font);
+    background-color: var(--accent);
+    color: var(--main-text);
+    list-style: none;
+    max-width: 100px;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+}
