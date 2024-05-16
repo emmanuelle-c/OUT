@@ -38,7 +38,7 @@
     gap: 5px;
     font-family: "Poppins";
     align-items: center;
-
+    cursor: pointer;
     border: #b9abc6 solid 3px;
 }
 
