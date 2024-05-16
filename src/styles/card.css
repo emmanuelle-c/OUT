@@ -1,14 +1,15 @@
-.card-container{
- width : 95%;
- display: flex;
- margin: 2%;
- border: 1px solid var(--secondary-color);
- border-radius: 10px;
- img {
+.card-container {
+  flex: 0 0 95%;
+  width: 95%;
+  display: flex;
+  margin: 2%;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  img {
     width: 50%;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
- }
+  }
 }
 
 .card-desc{

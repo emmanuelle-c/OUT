@@ -1,8 +1,9 @@
-import Modal from "../Modal";
-import "../../styles/results.css";
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../../styles/results.css";
 import activities from "../../activities";
+import Modal from "../Modal";
 import Card from "../Card";
 
 function Results() {

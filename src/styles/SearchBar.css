@@ -1,0 +1,29 @@
+.search-container {
+    max-width: 300px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    border: #b9abc6 solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.search {
+    background-color: var(--main-bg-color);
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    max-width: 250px;
+    border-radius: 50px;
+    font-size: 0.8em;
+    background-color: aliceblue;
+}
+*:focus {
+    outline: none;
+}
+@media only screen and (max-width: 900px) {
+    .main-search > input {
+        font-size: 0.4em;
+    }
+}
