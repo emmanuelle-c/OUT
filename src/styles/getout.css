@@ -13,3 +13,8 @@
   background-image: url("./src/assets/images/plan.png");
   background-size: cover;
 }
+.getout-header {
+  text-align: center;
+  color: #525252;
+  width: 90%;
+}

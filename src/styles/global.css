@@ -1,24 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:700,300|Roboto:400");
 
 :root {
-    --text: #071303;
-    --primary-color: #afcfa4;
-    --secondary-color: #b9abc6;
-    --background-color: #f3fbf0;
-    --accent: #ffd400;
-    background-color: #f3fbf0;
-    background-image: radial-gradient(#b9abc6 1.1px, transparent 1.1px),
-        radial-gradient(#b9abc6 1.1px, #f3fbf0 1.1px);
-    background-size: 44px 44px;
-    background-position: 0 0, 22px 22px;
+  --text: #071303;
+  --primary-color: #afcfa4;
+  --secondary-color: #b9abc6;
+  --background-color: #f3fbf0;
+  --accent: #ffd400;
+  background-color: #f3fbf0;
+  background-image: radial-gradient(#b9abc6 1.1px, transparent 1.1px),
+    radial-gradient(#b9abc6 1.1px, #f3fbf0 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
 }
 
 body {
-    /* background-color: var(--background-color); */
-    box-sizing: border-box;
-    margin: 0;
-    font-family: "Roboto";
-    font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: var(--text);
 }
 
 h1,
@@ -26,22 +26,20 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Poppins";
-    font-weight: 700;
-}
-
-html {
-    font-size: 100%;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: var(--text);
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
+  text-align: center;
 }
 
 h2 {
-    font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 small {
-    font-size: 0.75rem; /* 12px */
+  font-size: 0.75em;
 }
