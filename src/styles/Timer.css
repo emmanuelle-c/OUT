@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+.time {
+  font-family: "Caveat";
+  display: flex;
+  justify-content: center;
+  font-size: 130px;
+  margin-bottom: 0px;
+}
+
+.textetimer {
+  font-family: "Poppins";
+  font-size: 28px;
+  text-align: center;
+  width: 200px;
+}
+.timertext {
+  display: flex;
+  justify-content: center;
+}
+
+.timerbutton {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  border-radius: 10px;
+  border-style: none;
+  font-family: "Roboto";
+  font-size: 28px;
+  width: 200px;
+  height: 80px;
+  margin-top: 50px;
+}
+.timeflex {
+  display: flex;
+  justify-content: center;
+}

@@ -37,13 +37,14 @@ const [favorites, setFavorites] = useState([{
     "Il est important de limiter le temps d'écran et de privilégier d'autres activités pour préserver la santé.",
   ];
 
-  const SLIDES_UNE = [
+  const UNE = [
     <Card activity={favorites[0]}/>,
     <Card activity={favorites[1]}/>,
     <Card activity={favorites[2]}/>,
   ]
 
   return (
+
     <main className="main-search">
       <section className="off-screen-carrousel">
         <h1>Pourquoi faire attention à son temps hors écran ?</h1>
@@ -51,7 +52,7 @@ const [favorites, setFavorites] = useState([{
       </section>
       <section className="off-screen-carrousel">
         <h1>Les sorties à la une</h1>
-        <EmblaCarousel slides={SLIDES_UNE} options={OPTIONS} />
+        <EmblaCarousel slides={UNE} options={OPTIONS} />
       </section>
     </main>
   );
