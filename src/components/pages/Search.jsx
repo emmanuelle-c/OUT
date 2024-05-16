@@ -6,6 +6,7 @@ function Search() {
     const [searchInput, setSearchInput] = useState("");
     return (
         <div className="search">
+            <img className="logo" src="./src/assets/images/outlogo.svg " />
             <div className="searchdiv">
                 <SearchBar
                     searchInput={searchInput}

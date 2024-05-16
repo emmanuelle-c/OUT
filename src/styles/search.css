@@ -3,11 +3,15 @@
 .search {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 
     width: 100vw;
     height: 100vh;
+}
+.search > .logo {
+    width: 150px;
+    margin-top: 20px;
 }
 .searchdiv {
     display: flex;
@@ -45,4 +49,10 @@
 .tag:hover {
     background-color: var(--accent);
     color: var(--text);
+}
+
+@media only screen and (max-width: 900px) {
+    #home > .logo {
+        width: 10%;
+    }
 }
