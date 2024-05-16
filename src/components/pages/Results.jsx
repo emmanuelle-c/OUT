@@ -1,5 +1,5 @@
-function Results () {
-    return <p>selection page</p>
+function Results() {
+  return <p>Results</p>;
 }
 
 export default Results;
