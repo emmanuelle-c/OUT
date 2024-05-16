@@ -1,10 +1,10 @@
-import "./App.css";
-import Timer from "./components/Timer";
-
+import { Outlet } from "react-router-dom";
+import Timer from "./components/pages/Timer";
 function App() {
   return (
     <>
-      <Timer/>
+      <Timer initialSeconds={60} />
+      <Outlet />
     </>
   );
 }
