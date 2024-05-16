@@ -1,5 +1,11 @@
+import Modal from "../Modal";
+
 function Results() {
-  return <p>Results</p>;
+  return (
+  <>
+  < Modal />
+  <p>Results</p>
+  </>);
 }
 
 export default Results;
