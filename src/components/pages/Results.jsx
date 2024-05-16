@@ -1,5 +1,8 @@
 
+import { useState } from "react";
 import "../../styles/results.css";
+import activities from "../../activities";
+import Modal from "../Modal";
 import Card from "../Card";
 
 function Results() {

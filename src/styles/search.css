@@ -12,3 +12,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .off-screen-carrousel {
+        width: 90vw;
+    }
+  }

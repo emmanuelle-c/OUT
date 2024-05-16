@@ -1,8 +1,9 @@
 import useEmblaCarousel from "embla-carousel-react";
 import { useEffect } from "react";
 import "../styles/emblaCarousel.css";
+import Card from "./Card";
 
-export function EmblaCarousel({ slides, options }) {
+export function EmblaCarouselCards({ slides, options }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
 
   useEffect(() => {
@@ -12,14 +13,11 @@ export function EmblaCarousel({ slides, options }) {
   }, [emblaApi]);
 
   return (
-    <section className="embla">
+    <section className="embla_cards">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="embla_cards__container">
           {slides.map((index) => (
-            <div className="embla__slide" key={index}>
-              <p>{index.text}</p>
-              <img src={`/src/${index.img}`} />
-            </div>
+            <Card key={index} activity={index} />
           ))}
         </div>
       </div>
