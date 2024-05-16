@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");
+
 :root {
     --text: #071303;
     --primary-color: #afcfa4;
@@ -12,9 +14,10 @@
     background-position: 0 0, 9px 9px;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");
-
 body {
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    margin: 0;
     font-family: "Roboto";
     font-weight: 400;
 }
@@ -33,15 +36,15 @@ html {
 } /* 16px */
 
 h1 {
-    font-size: 4.21rem; /* 67.36px */
+    font-size: 2em; /* 67.36px */
 }
 
 h2 {
-    font-size: 3.158rem; /* 50.56px */
+    font-size: 1.8em; /* 50.56px */
 }
 
 h3 {
-    font-size: 2.369rem; /* 37.92px */
+    font-size: 1.6em; /* 37.92px */
 }
 
 h4 {
