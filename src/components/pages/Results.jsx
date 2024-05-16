@@ -19,7 +19,7 @@ function Results() {
   );
   const randomCultureActivity = cultureArray[Math.floor(Math.random() * cultureArray.length)];
   return (
-    <>
+    <main className="main-result">
       {isOpen && <Modal setIsOpen={setIsOpen} />}
       <h2 className="results-header">Out te propose 3 activités</h2>
       <div>
@@ -33,8 +33,8 @@ function Results() {
             activity={randomCultureActivity}
           />
       </div>
-      <button>Voir plus</button>
-    </>
+      <button className="show-more-cards">Voir plus</button>
+    </main>
   );
 }
 
