@@ -1,10 +1,13 @@
 #home {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+#home > .logo {
+  width: 500px;
 }
 .description-out-home {
   display: flex;
@@ -16,7 +19,7 @@
 
 .bienvenue {
   margin: 0;
-  color: rgb(65, 65, 65);
+  color: rgb(83, 83, 83);
 }
 
 .paragraphe {
@@ -71,5 +74,11 @@
 @media (min-width: 1024px) {
   .paragraphe {
     width: 60%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #home > .logo {
+    width: 80%;
   }
 }
