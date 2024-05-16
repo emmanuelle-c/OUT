@@ -30,10 +30,20 @@ h2,
 h3,
 h4,
 h5 {
+
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+ }/* 16px */
+
   font-family: "Poppins";
   font-weight: 700;
   color: var(--text);
 }
+
 
 h1 {
   font-size: 2em;
