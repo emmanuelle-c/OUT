@@ -1,4 +1,5 @@
 import "../styles/modal.css";
+import "../styles/global.css";
 import { RiCloseLine } from "react-icons/ri";
 import PropTypes from "prop-types"
 
@@ -15,7 +16,7 @@ function Modal ({setIsOpen}) {
                     <RiCloseLine style={{marginBottom: "-3px"}}/>
                 </button>
                 <div className="modalContent">
-                    Il est temps de prendre une pause !
+                    <p>Il est temps de prendre une pause !</p>
                 </div>
             </div>
         </div>

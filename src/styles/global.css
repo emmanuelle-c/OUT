@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");
+
 :root {
   --text: #071303;
   --primary-color: #afcfa4;
@@ -5,8 +7,6 @@
   --background-color: #f3fbf0;
   --accent: #ffd400;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400");
 
 body {
   font-family: "Roboto";
