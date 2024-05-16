@@ -19,7 +19,9 @@
     font-size: 0.8em;
     background-color: aliceblue;
 }
-
+*:focus {
+    outline: none;
+}
 @media only screen and (max-width: 900px) {
     .main-search > input {
         font-size: 0.4em;
