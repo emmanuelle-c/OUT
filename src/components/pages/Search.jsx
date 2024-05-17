@@ -3,11 +3,12 @@ import { EmblaCarouselCards } from "../EmblaCarouselCards";
 import "../../styles/search.css";
 import SearchBar from "../SearchBar";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import activities from "../../activities";
 
 function Search() {
   const [searchInput, setSearchInput] = useState("");
-
+  const navigate = useNavigate();
   const favorites = [
     {
       category: "culture",
@@ -68,11 +69,11 @@ function Search() {
         <EmblaCarouselCards slides={favorites} options={OPTIONS} />
       </section>
       <div className="searchdiv">
-        <SearchBar searchInput={searchInput} setSearchInput={setSearchInput} />
+        <SearchBar searchInput={searchInput} setSearchInput={setSearchInput} activities={activities}/>
         <ul className="tags">
-          <li className="tag">
+          <li className="tag" onClick={() => navigate(`/results/category/nature`)}>
             {" "}
-            <svg
+            <svg 
               width="10"
               height="11"
               viewBox="0 0 10 11"
@@ -86,7 +87,7 @@ function Search() {
             </svg>
             Nature
           </li>
-          <li className="tag">
+          <li className="tag" onClick={() => navigate(`/results/category/culture`)}>
             <svg
               width="10"
               height="10"
@@ -101,7 +102,7 @@ function Search() {
             </svg>
             Culture
           </li>
-          <li className="tag">
+          <li className="tag" onClick={() => navigate(`/results/category/sport`)}>
             <svg
               width="10"
               height="12"

@@ -3,22 +3,8 @@
     color: #525252;
 }
 
-.show-more-cards{
-    background-color: var(--secondary-color);
-    color: white;
-    font-family: "poppins";
-    font-weight: 700;
-    font-size: 1.3em;
-    border-radius: 10px;
-    border: none;
-    padding: 2% 12%;
-    box-shadow: 3px 10px 15px -4px rgba(0,0,0,0.75);
-    cursor: pointer;
-    margin: 5% 0;
-    transition: padding 0.8s;
-}
-.show-more-cards:hover{
-    padding: 1.8% 10%;
+.go-out-results{
+    margin-bottom: 2%;
 }
 
 .main-result {

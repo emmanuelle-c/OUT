@@ -10,7 +10,9 @@ function GetOut() {
       <h2 className="getout-header">
         {"Retrouve l'activité près de chez toi"}
       </h2>
-      <div className="plan-activity"></div>
+      <div className="plan-activity">
+        <img src="./src/assets/images/plan.png" alt="plan/carte"/>
+      </div>
       <a
         href="https://www.google.com/maps/@48.8046592,2.4357993,14z?authuser=0&entry=ttu"
         target="blanck"

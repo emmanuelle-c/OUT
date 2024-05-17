@@ -36,6 +36,14 @@ const router = createBrowserRouter([
                 path: "/get-out",
                 element: <GetOut />,
             },
+            // {
+            //   path: "/results/search/:input",
+            //   element: <Results />,
+            // },
+            {
+              path: "/results/:type/:input",
+              element: <Results />,
+            }
         ],
     },
 ]);

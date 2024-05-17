@@ -7,10 +7,9 @@
   gap: 30px;
 }
 .plan-activity {
-  width: 85%;
-  height: 700px;
-  background-image: url("./src/assets/images/plan.png");
-  background-size: cover;
+  img{
+    height: 70vh;
+  }
 }
 .getout-header {
   text-align: center;
@@ -21,8 +20,5 @@
 @media (max-width: 1024px) {
   .plan-activity {
     height: 85%;
-  }
-  .get-out-section {
-    height: 90vh;
   }
 }
