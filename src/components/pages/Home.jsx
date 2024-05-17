@@ -4,7 +4,7 @@ import "../../styles/home.css";
 function Home() {
     return (
         <section id="home">
-            <img className="logo" src="./src/assets/images/outlogo.svg " />
+            <img className="logo" src="./src/assets/images/outlogo.svg" />
             <div className="description-out-home">
                 <h1 className="bienvenue">Bienvenue sur OUT</h1>
                 <p className="paragraphe">

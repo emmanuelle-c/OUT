@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+}
 
 .time {
   font-family: "Caveat";
@@ -35,7 +42,7 @@
   justify-content: center;
 }
 .logotimer {
-  width: 35%;
+  width: 250px;
 }
 .timerlogo {
   display: flex;
