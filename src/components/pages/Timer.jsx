@@ -1,14 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../styles/Timer.css";
 
 const Timer = () => {
-  const initialMinutes = 1;
+  const initialMinutes = 0.1;
   const [seconds, setSeconds] = useState(initialMinutes * 60);
   const [isActive, setIsActive] = useState(false);
   const navigate = useNavigate();
+  const audioRef = useRef(null);
 
   useEffect(() => {
     if (isActive && seconds > 0) {
@@ -18,6 +19,9 @@ const Timer = () => {
       return () => clearInterval(interval);
     } else if (seconds === 0) {
       setIsActive(false);
+      if (audioRef.current) {
+        audioRef.current.play();
+      }
       navigate("/results");
     }
   }, [isActive, seconds, navigate]);
@@ -67,6 +71,7 @@ const Timer = () => {
           Lancer le timer
         </button>
       </div>
+      <audio ref={audioRef} src="/public/AMBBird.mp3" />
     </div>
   );
 };
