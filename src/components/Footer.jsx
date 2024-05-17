@@ -1,5 +1,9 @@
+import "../styles/global.css"
+
 function Footer() {
-  return <p>voici le footer de batard !</p>;
+  return (
+    <footer>©️Protojam 2024 - Réalisé par Adam, Anthony, Antoine, Emmanuelle et Mickaël with love.</footer>
+  );
 }
 
 export default Footer;
