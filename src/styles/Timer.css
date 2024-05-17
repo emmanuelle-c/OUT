@@ -24,18 +24,6 @@
   display: flex;
   justify-content: center;
 }
-
-.timerbutton {
-  background-color: var(--secondary-color);
-  color: var(--background-color);
-  border-radius: 10px;
-  border-style: none;
-  font-family: "Roboto";
-  font-size: 28px;
-  width: 200px;
-  height: 80px;
-  margin-top: 50px;
-}
 .timeflex {
   display: flex;
   justify-content: center;
