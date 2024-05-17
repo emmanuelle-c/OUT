@@ -24,23 +24,19 @@ function Results() {
     .sort(() => Math.random() - 0.5);
 
   let inputArray = [];
-  if ( type === "search") {
-
-    inputArray =  activities.filter(
-        (activity) =>
-          activity.title.toLowerCase().includes(input.toLowerCase()) ||
-          activity.description.toLowerCase().includes(input.toLowerCase())
-      );
-  }
-  else {
+  if (type === "search") {
+    inputArray = activities.filter(
+      (activity) =>
+        activity.title.toLowerCase().includes(input.toLowerCase()) ||
+        activity.description.toLowerCase().includes(input.toLowerCase())
+    );
+  } else {
     if (input === "nature") {
-        inputArray = natureArray;
-    }
-    else if (input === "culture") {
-        inputArray = cultureArray;
-    }
-    else if (input === "sport") {
-        inputArray = sportArray;
+      inputArray = natureArray;
+    } else if (input === "culture") {
+      inputArray = cultureArray;
+    } else if (input === "sport") {
+      inputArray = sportArray;
     }
   }
 
@@ -50,6 +46,9 @@ function Results() {
   };
   return (
     <main className="main-result">
+      <Link to="/">
+        <img className="logo" src="/src/assets/images/outlogo.svg " />
+      </Link>
       {!input && (
         <>
           {isOpen && <Modal setIsOpen={setIsOpen} />}
@@ -60,7 +59,7 @@ function Results() {
             <Card activity={cultureArray[0]} />
           </div>
           {isButton && (
-            <button className="show-more-cards" onClick={handleShow}>
+            <button className="go-out go-out-results" onClick={handleShow}>
               Voir plus
             </button>
           )}
@@ -86,9 +85,15 @@ function Results() {
       )}
       {type === "category" &&
         input &&
-        inputArray.map((activity) => (
+        <>
+        <h2 className="results-header">Voilà ce que donne ta recherche 😀</h2>
+        {inputArray.map((activity) => (
           <Card key={activity.address} activity={activity} />
         ))}
+        </>}
+      <Link to="/">
+        <button className="find-activity">Back-Out !</button>
+      </Link>
     </main>
   );
 }
