@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import "../styles/SearchBar.css";
+import { useNavigate } from "react-router-dom";
 function SearchBar({ searchInput, setSearchInput }) {
     const navigate = useNavigate();
     return (
@@ -13,7 +14,7 @@ function SearchBar({ searchInput, setSearchInput }) {
                     setSearchInput(event.target.value);
                 }}
             />
-            <svg
+            <svg onClick={()=> navigate(`/results/search/${searchInput}`)}
                 width="16"
                 height="16"
                 viewBox="0 0 16 16"
