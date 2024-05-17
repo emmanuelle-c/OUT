@@ -1,0 +1,64 @@
+.embla {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla_cards {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla_cards__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 95%;
+  background-color: white;
+  display: flex;
+  margin: 2%;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  max-height: 300px;
+  img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    padding: 30px;
+  }
+}
+
+.embla__slide:nth-child(1) {
+  margin-right: 10px;
+}
+.embla__slide:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.embla__slide:nth-child(3) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .embla {
+    flex: 0 0 100%; /* Breakpoint SM slide covers 50% of the viewport */
+  }
+
+  .embla__slide {
+    p {
+      font-size: 16px;
+    }
+  }
+}

@@ -3,9 +3,9 @@ import "../styles/SearchBar.css";
 import { Link } from "react-router-dom";
 function SearchBar({ searchInput, setSearchInput }) {
     return (
-        <form className="main-search-container">
+        <form className="search-container">
             <input
-                className="main-search"
+                className="search"
                 placeholder="Recherche une activité proche de chez toi"
                 type="text"
                 value={searchInput}

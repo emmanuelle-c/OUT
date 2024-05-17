@@ -1,0 +1,28 @@
+.get-out-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.plan-activity {
+  width: 85%;
+  height: 700px;
+  background-image: url("./src/assets/images/plan.png");
+  background-size: cover;
+}
+.getout-header {
+  text-align: center;
+  color: #525252;
+  width: 90%;
+}
+
+@media (max-width: 1024px) {
+  .plan-activity {
+    height: 85%;
+  }
+  .get-out-section {
+    height: 90vh;
+  }
+}

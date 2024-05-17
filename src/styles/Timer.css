@@ -1,18 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+}
 
 .time {
   font-family: "Caveat";
   display: flex;
   justify-content: center;
   font-size: 130px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 .textetimer {
   font-family: "Poppins";
   font-size: 28px;
   text-align: center;
-  width: 200px;
+  width: 64%;
 }
 .timertext {
   display: flex;
@@ -31,6 +38,18 @@
   margin-top: 50px;
 }
 .timeflex {
+  display: flex;
+  justify-content: center;
+}
+.logotimer {
+  width: 250px;
+}
+.timerlogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.selecttime {
   display: flex;
   justify-content: center;
 }
