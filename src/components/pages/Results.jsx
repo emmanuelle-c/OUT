@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/results.css";
@@ -10,18 +9,17 @@ function Results() {
   const [isOpen, setIsOpen] = useState(true);
   const [showMore, setShowMore] = useState(false);
   const [isButton, setIsButton] = useState(true);
-  const natureArray = activities.filter(
-    (activity) => activity.category === "nature"
-  ).sort(() => Math.random() - 0.5);
+  const natureArray = activities
+    .filter((activity) => activity.category === "nature")
+    .sort(() => Math.random() - 0.5);
 
-  const sportArray = activities.filter(
-    (activity) => activity.category === "sport"
-  ).sort(() => Math.random() - 0.5);
+  const sportArray = activities
+    .filter((activity) => activity.category === "sport")
+    .sort(() => Math.random() - 0.5);
 
-  const cultureArray = activities.filter(
-    (activity) => activity.category === "culture"
-  ).sort(() => Math.random() - 0.5);
-
+  const cultureArray = activities
+    .filter((activity) => activity.category === "culture")
+    .sort(() => Math.random() - 0.5);
 
   const handleShow = () => {
     setShowMore(true);
@@ -46,7 +44,7 @@ function Results() {
           <Card activity={natureArray[1]} />
           <Card activity={sportArray[1]} />
           <Card activity={cultureArray[1]} />
-          <Link to="/search">Faire ma propre recherche d'activités</Link>
+          <Link to="/search">{"Faire ma propre recherche d'activités"}</Link>
         </div>
       )}
     </main>

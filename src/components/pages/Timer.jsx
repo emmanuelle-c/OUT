@@ -34,7 +34,7 @@ const Timer = () => {
 
   return (
     <div className="timer">
-      <div className="timerlogo">
+      <div className="timerlogo" onClick={() => navigate("/")}>
         <img
           src="src/assets/images/outlogo.svg"
           alt="logo"
