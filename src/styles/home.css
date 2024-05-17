@@ -7,78 +7,78 @@
     margin-top: 10%;
 }
 #home > .logo {
-    width: 500px;
+  width: 500px;
 }
 .description-out-home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
 }
 
 .bienvenue {
-    margin: 0;
-    color: rgb(83, 83, 83);
+  margin: 0;
+  color: rgb(83, 83, 83);
 }
 
 .paragraphe {
-    margin: 0;
-    font-size: 1.5em;
-    text-align: center;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .buttons-home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .go-out {
-    background-color: var(--secondary-color);
-    color: white;
-    width: 200px;
-    height: 60px;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-    font-weight: 700;
-    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+  background-color: var(--secondary-color);
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .go-out:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .find-activity {
-    cursor: pointer;
-    background-color: var(--background-color);
-    color: var(--secondary-color);
-    border: none;
-    font-size: 16px;
-    width: 170px;
-    height: 55px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
-    transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  border: none;
+  font-size: 16px;
+  width: 170px;
+  height: 55px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
 }
 
 .find-activity:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 @media (min-width: 1024px) {
-    .paragraphe {
-        width: 60%;
-    }
+  .paragraphe {
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    #home > .logo {
-        width: 80%;
-    }
+  #home > .logo {
+    width: 80%;
+  }
 }
