@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { outLogo } from "./src/assets/images/outlogo.svg";
+import { outLogo } from "/src/assets/images/outlogo.svg";
 import "../../styles/home.css";
 
 function Home() {
