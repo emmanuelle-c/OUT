@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../styles/Timer.css";
+import outLogo from "../../assets/images/outlogo.svg";
 
 const Timer = () => {
   const initialMinutes = 1;
@@ -36,7 +37,7 @@ const Timer = () => {
     <div className="timer">
       <div className="timerlogo" onClick={() => navigate("/")}>
         <img
-          src="src/assets/images/outlogo.svg"
+          src={outLogo}
           alt="logo"
           className="logotimer"
         />

@@ -4,6 +4,7 @@ import "../../styles/results.css";
 import activities from "../../activities";
 import Modal from "../Modal";
 import Card from "../Card";
+import outLogo from "../../assets/images/outlogo.svg";
 
 function Results() {
   const [isOpen, setIsOpen] = useState(true);
@@ -47,7 +48,7 @@ function Results() {
   return (
     <main className="main-result">
       <Link to="/">
-        <img className="logo" src="/src/assets/images/outlogo.svg " />
+        <img className="logo" src={outLogo} />
       </Link>
       {!input && (
         <>
