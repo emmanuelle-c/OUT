@@ -6,6 +6,9 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import activities from "../../activities";
 import outLogo from "../../assets/images/outlogo.svg";
+import img1 from "../../assets/images/warning_slide1.jpg";
+import img2 from "../../assets/images/warning_slide2.jpg";
+import img3 from "../../assets/images/warning_slide3.jpg";
 
 function Search() {
   const [searchInput, setSearchInput] = useState("");
@@ -44,15 +47,15 @@ function Search() {
   const SLIDES = [
     {
       text: "En moyenne, les Français passent environ 4 heures et 30 minutes par jour devant un écran, que ce soit pour le travail ou les loisirs.",
-      img: "assets/images/warning_slide1.jpg",
+      img: `${img1}`,
     },
     {
       text: "La surexposition aux écrans peut causer des problèmes de vision, perturber le sommeil, et entraîner des douleurs physiques.",
-      img: "assets/images/warning_slide2.jpg",
+      img: `${img2}`,
     },
     {
       text: "Il est important de limiter le temps d'écran et de privilégier d'autres activités pour préserver la santé.",
-      img: "assets/images/warning_slide3.jpg",
+      img: `${img3}`,
     },
   ];
 
