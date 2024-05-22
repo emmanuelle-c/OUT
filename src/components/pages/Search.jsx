@@ -5,6 +5,7 @@ import SearchBar from "../SearchBar";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import activities from "../../activities";
+import outLogo from "../../assets/images/outlogo.svg";
 
 function Search() {
   const [searchInput, setSearchInput] = useState("");
@@ -58,7 +59,7 @@ function Search() {
   return (
     <main className="main-search">
       <Link to="/">
-        <img className="logo" src="./src/assets/images/outlogo.svg " />
+        <img className="logo" src={outLogo} />
       </Link>
       <section className="off-screen-carrousel">
         <h1>Pourquoi faire attention à son temps hors écran ?</h1>

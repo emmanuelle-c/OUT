@@ -5,7 +5,7 @@ const activities = [
         title: 'Tournoi de tennis',
         address: "Roland Garros, 75016 Paris",
         description: "Assistez au célèbre tournoi de tennis de Roland Garros, où les meilleurs joueurs du monde s'affrontent sur terre battue.",
-        img: "./assets/images/sport4.avif",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: true
     },
     {
@@ -13,7 +13,7 @@ const activities = [
         title: 'Cours de natation',
         address: "Piscine Molitor, 75016 Paris",
         description: "Participez à des cours de natation pour débutants dans l'emblématique piscine Molitor, un cadre luxueux et historique.",
-        img: "./assets/images/sport1.webp",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: true
     },
     {
@@ -21,7 +21,7 @@ const activities = [
         title: 'Escalade',
         address: "Mur de l'Escalade, 75014 Paris",
         description: "Testez vos compétences en escalade sur le Mur de l'Escalade, adapté à tous les niveaux, des débutants aux experts.",
-        img: "./assets/images/sport2.jpg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -29,7 +29,7 @@ const activities = [
         title: 'BootCamp fitness',
         address: "Parc des Princes, 75016 Paris",
         description: "Rejoignez un bootcamp de fitness en groupe au Parc des Princes pour améliorer votre condition physique de manière ludique et dynamique.",
-        img: "./assets/images/sport5.jpeg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -37,7 +37,7 @@ const activities = [
         title: 'Match de hokey',
         address: "AccorHotels Arena, 75012 Paris",
         description: "Venez encourager votre équipe préférée lors d'un match de hockey sur glace à l'AccorHotels Arena, une ambiance électrisante garantie.",
-        img: "./assets/images/sport3.jpg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -45,7 +45,7 @@ const activities = [
         title: 'Ultimate frisbee',
         address: "Parc de la Villette, 75019 Paris",
         description: "Rejoignez une ligue de frisbee ultime au Parc de la Villette, un sport collectif et convivial qui allie compétition et plaisir.",
-        img: "./assets/images/sport1.webp",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -53,7 +53,7 @@ const activities = [
         title: 'Séances de yoga',
         address: "Bois de Vincennes, 75012 Paris",
         description: "Détendez-vous avec des séances de yoga en plein air dans le cadre paisible du Bois de Vincennes.",
-        img: "./assets/images/sport3.jpg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -61,7 +61,7 @@ const activities = [
         title: 'Match de baseball',
         address: "Stade Charléty, 75013 Paris",
         description: "Assistez à un match de baseball local au Stade Charléty, un sport américain passionnant à découvrir.",
-        img: "./assets/images/sport4.avif",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -69,7 +69,7 @@ const activities = [
         title: 'Cours de crossfit',
         address: "CrossFit Louvre, 75002 Paris",
         description: "Participez à une compétition de CrossFit au CrossFit Louvre, un défi physique intense et stimulant.",
-        img: "./assets/images/sport5.jpeg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -77,7 +77,7 @@ const activities = [
         title: 'Tournoi de rugby',
         address: "Stade Sébastien Charléty, 75013 Paris",
         description: "Venez assister à un tournoi de rugby amateur au Stade Sébastien Charléty, une belle occasion de voir du sport en plein cœur de Paris.",
-        img: "./assets/images/sport1.webp",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -85,7 +85,7 @@ const activities = [
         title: 'Cours de boxe',
         address: "Club de l'Étoile, 75017 Paris",
         description: "Inscrivez-vous à des cours de boxe pour tous niveaux au Club de l'Étoile et apprenez les techniques de cet art martial dans une ambiance conviviale.",
-        img: "./assets/images/sport3.jpg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -93,7 +93,7 @@ const activities = [
         title: 'Cours de zumba',
         address: "Gymnase Japy, 75011 Paris",
         description: "Participez à des cours de Zumba en soirée au Gymnase Japy pour une séance de fitness rythmée et amusante.",
-        img: "./assets/images/sport2.jpg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -101,7 +101,7 @@ const activities = [
         title: 'Découverte natation synchronisée',
         address: "Piscine Pontoise, 75005 Paris",
         description: "Découvrez la natation synchronisée pour débutants à la Piscine Pontoise, une discipline gracieuse et artistique.",
-        img: "./assets/images/sport4.avif",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -109,7 +109,7 @@ const activities = [
         title: 'Course à pied',
         address: "Parc Montsouris, 75014 Paris",
         description: "Rejoignez une course à pied communautaire au Parc Montsouris et faites de l'exercice tout en rencontrant de nouvelles personnes.",
-        img: "./assets/images/sport3.jpg",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
     {
@@ -117,7 +117,7 @@ const activities = [
         title: 'Cours de basketball',
         address: "Gymnase Auguste Blanqui, 75013 Paris",
         description: "Inscrivez vos enfants à des cours de basketball au Gymnase Auguste Blanqui, un excellent moyen pour eux de rester actifs et de développer des compétences en équipe.",
-        img: "./assets/images/sport1.webp",
+        img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         popular: false
     },
 
