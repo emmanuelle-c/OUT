@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../../styles/getout.css";
 import outLogo from "../../assets/images/outlogo.svg";
-import plan from "./src/assets/images/plan.png"
+import plan from "../../assets/images/plan.png"
 
 function GetOut() {
   return (
