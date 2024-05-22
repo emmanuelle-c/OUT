@@ -20,7 +20,7 @@ function Search() {
       address: "Marché des Enfants Rouges, 75003 Paris",
       description:
         "Parcourez la foire artisanale au Marché des Enfants Rouges et découvrez des produits faits main uniques et créatifs.",
-      img: "./assets/images/culture1.jpeg",
+      img: "https://images.unsplash.com/photo-1572953109213-3be62398eb95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       popular: false,
     },
     {
@@ -29,7 +29,7 @@ function Search() {
       address: "Bois de Vincennes, 75012 Paris",
       description:
         "Détendez-vous avec des séances de yoga en plein air dans le cadre paisible du Bois de Vincennes.",
-      img: "./assets/images/sport3.jpg",
+      img: "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       popular: false,
     },
     {
@@ -38,7 +38,7 @@ function Search() {
       address: "Bois de Boulogne, 75016 Paris",
       description:
         "Explorez le Bois de Boulogne, un immense parc urbain offrant des sentiers de randonnée, des lacs pour faire du canotage, et des jardins paysagers.",
-      img: "./assets/images/nature2.jpeg",
+      img: "https://images.unsplash.com/photo-1585938389612-a552a28d6914?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       popular: true,
     },
   ];
