@@ -40,7 +40,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 27%;
   }
   .activity-address {
     font-style: italic;
@@ -48,11 +47,15 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .card-container {       
+  .card-container { 
+    display: flex;
+    flex-direction: column;
+    
     img {
-      width: 30%;
+      width: 100%;
       object-fit: cover;
-      border-radius: 10px 0 0 10px;
+      max-height: 200px;
+      border-radius: 10px 10px 0 0  ;
     }
   }
   
