@@ -28,9 +28,8 @@ Distributed under the MIT License
 
 <!-- CONTACT -->
 ## Contact
-Antoine Delalande - ant.delalande@gmail.com
+Emmanuelle Curiant - emmanuelle.curiant@gmail.com
 
-Project Link: [https://github.com/Hamsolovski/OUT](https://github.com/Hamsolovski/OUT)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
